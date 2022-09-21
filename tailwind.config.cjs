@@ -18,8 +18,8 @@ module.exports = {
         Raleway: "Raleway,sans-serif",
       },
       backgroundImage: {
-        sectionDesktop: 'url("/images/bg-curve-desktop.svg")',
-        sectionMobile: 'url("/images/bg-curve-mobile.svg")',
+        sectionDesktop: 'url("/images/bg-curvy-desktop.svg")',
+        sectionMobile: 'url("/images/bg-curvy-mobile.svg")',
       },
     },
   },
