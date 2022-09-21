@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div className="w-full min-h-screen bg-DarkBlueIntro py-8 font-OpenSans">
-      <header className="px-16">
+      <header className="px-16 ">
         <nav className="flex justify-between items-center text-White ">
           <div className="">
             <img
@@ -56,8 +56,8 @@ const App = () => {
           </ul>
         </nav>
       </header>
-      <main>
-        <section className="bg-sectionMobile bg-bottom md:bg-sectionDesktop bg-contain bg-no-repeat flex flex-col justify-center items-center mt-16  gap-8 px-16 text-White">
+      <main className="bg-DarkBlueMain">
+        <section className="bg-sectionMobile bg-DarkBlueIntro bg-bottom md:bg-sectionDesktop bg-contain bg-no-repeat flex flex-col justify-center items-center mt-16  gap-8 px-16 text-White">
           <div className="max-w-md">
             <img
               className="max-w-full h-auto bg-cover"
